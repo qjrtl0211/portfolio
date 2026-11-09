@@ -3,87 +3,955 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="개인 포트폴리오">
-    <title>박보람 | Frontend Developer</title>
+    <meta name="description" content="16년 11개월 경력의 웹 퍼블리셔 박보람의 포트폴리오. 쇼핑몰 구축, 기업 웹사이트 제작, 운영 및 유지보수 경험.">
+    <title>박보람 | Web Publisher</title>
+    <meta name="theme-color" content="#7c3aed">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:title" content="박보람 | Web Publisher">
+    <meta property="og:description" content="16년 11개월 경력의 웹 퍼블리셔 박보람의 포트폴리오. 쇼핑몰 구축, 기업 웹사이트 제작, 운영 및 유지보수 경험.">
+    <meta property="og:url" content="https://qjrtl0211.github.io/portfolio/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237c3aed'/%3E%3Cstop offset='1' stop-color='%23ec4899'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' text-anchor='middle' fill='white'%3EBR%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
     <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
     <header>
         <nav class="container">
-            <a href="#" class="logo">
+            <a href="#" class="logo" aria-label="박보람 포트폴리오 맨 위로">
                 <span class="logo-mark">BR</span>
                 <span class="logo-name">BORAM PARK</span>
             </a>
             <ul role="list">
                 <li><a href="#about">About</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#personal">AI &amp; Personal</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="hero">
+            <div class="hero-lines" aria-hidden="true">
+                <span class="run-x rx1"></span>
+                <span class="run-x rx2"></span>
+                <span class="run-x rx3"></span>
+                <span class="run-y ry1"></span>
+                <span class="run-y ry2"></span>
+                <span class="run-y ry3"></span>
+            </div>
             <div class="hero-inner container">
-                <p class="eyebrow">FRONTEND DEVELOPER · PUBLISHER</p>
+                <p class="eyebrow">WEB PUBLISHER · 16 YRS 11 MOS</p>
                 <h1>
                     박보람
                     <span>PORTFOLIO</span>
                 </h1>
                 <p class="hero-description">
-                    사용자 경험을 생각하고,<br>
-                    디테일을 코드로 구현합니다.
+                    16년 11개월의 실무 경험을 바탕으로 쇼핑몰 구축부터<br>
+                    기업 웹사이트 제작, 운영 및 유지보수까지<br>
+                    다양한 웹 환경을 경험한 웹 퍼블리셔입니다.
                 </p>
-                <a href="#projects" class="hero-button">
-                    View Projects →
+                <ul role="list" class="keyword-list">
+                    <li>쇼핑몰 구축 및 운영</li>
+                    <li>기업 웹사이트 제작</li>
+                    <li>HTML/CSS 기반 웹 화면 구현</li>
+                    <li>반응형 웹 퍼블리싱</li>
+                    <li>웹사이트 유지보수 및 UI 개선</li>
+                </ul>
+                <a href="#career" class="hero-button">
+                    View Career →
                 </a>
+                <dl class="hero-stats">
+                    <div>
+                        <dt>Experience</dt>
+                        <dd>16Y 11M</dd>
+                    </div>
+                    <div>
+                        <dt>Since</dt>
+                        <dd>2010</dd>
+                    </div>
+                    <div>
+                        <dt>Now</dt>
+                        <dd>Connectwave</dd>
+                    </div>
+                </dl>
             </div>
         </section>
-    
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>jQuery</span><span>Responsive Web</span><span>Web Standards</span><span>Web Accessibility</span><span>Makeshop</span>
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>jQuery</span><span>Responsive Web</span><span>Web Standards</span><span>Web Accessibility</span><span>Makeshop</span>
+            </div>
+        </div>
+
         <section id="about">
             <div class="container">
-                <p class="section-label">About</p>
+                <h2 class="section-label">About</h2>
                 <div class="about-grid">
-        
+
                     <div class="about-text">
-                        <h2>안녕하세요,<br>박보람입니다.</h2>
+                        <h3>안녕하세요,<br>웹 퍼블리셔 박보람입니다.</h3>
                         <p>
-                            웹 퍼블리셔로 운영 업무를 담당하며
-                            <strong>웹 표준, 접근성, 크로스 브라우저 호환성</strong>에 대한
-                            기반을 쌓았습니다.
+                            <strong>16년 11개월</strong> 동안 웹 퍼블리셔로 일하며
+                            <strong>쇼핑몰 구축 및 운영, 기업 웹사이트 제작, 유지보수</strong>를 경험했습니다.
                         </p>
                         <p>
-                            현재는 <strong>React, Next.js, TypeScript</strong>를 학습하며
-                            컴포넌트 설계와 상태 관리를 익히고 있습니다.
+                            디자인 시안을 <strong>HTML/CSS</strong> 기반의 실제 웹 화면으로 구현하고,
+                            PC와 모바일 환경에 맞는 <strong>반응형 퍼블리싱</strong>과
+                            운영 중인 사이트의 수정 및 UI 개선을 해왔습니다.
+                        </p>
+                        <p>
+                            업무 외 시간에는 React, Next.js, AI 도구를 개인적으로 학습하고
+                            작은 프로젝트로 실험하고 있습니다.
                         </p>
                     </div>
-        
-                    <div class="about-skills">
-                        <h3>Skills</h3>
+
+                    <dl class="about-facts">
+                        <div>
+                            <dt>총 경력</dt>
+                            <dd>16년 11개월</dd>
+                        </div>
+                        <div>
+                            <dt>포지션</dt>
+                            <dd>Web Publisher</dd>
+                        </div>
+                        <div>
+                            <dt>현재 소속</dt>
+                            <dd>(주)커넥트웨이브 (2022.12 ~ 재직 중)</dd>
+                        </div>
+                    </dl>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="career">
+            <div class="container">
+                <h2 class="section-label">Career</h2>
+                <ol role="list" class="timeline">
+
+                    <li class="career-item is-current">
+                        <div class="career-period">
+                            <p>2022.12 ~ 재직 중</p>
+                            <p>2019.06 ~ 2022.12 회사법인명 변경(전)코리아센터</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>(주)커넥트웨이브</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <ul class="career-tasks">
+                                <li>메이크샵 개별 디자인 템플릿 유지보수</li>
+                                <li>관리자 유지보수</li>
+                                <li>쇼핑몰 신규 구축 및 화면 작업</li>
+                                <li>기존 소스 분석 및 수정</li>
+                                <li>운영 중 발생하는 화면 문제 대응</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2017.11 ~ 2019.06</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>F&amp;F</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <!-- 담당 업무 입력 -->
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2016.11 ~ 2017.06</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>디브로스 크리에이티브 / 그룹아이디디</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <ul class="career-tasks">
+                                <li>하이트진로, 던킨도너츠, 배스킨라빈스, 광동제약 등 다양한 브랜드의 프로모션 페이지 제작 및 유지보수</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2016.06 ~ 2016.10</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>커머스랩</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <ul class="career-tasks">
+                                <li>핫티 슈즈몰 제작</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2015.07 ~ 2016.03</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>코드파트너즈</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <p class="career-note">프리랜서 근무</p>
+                            <ul class="career-tasks">
+                                <li>현대증권 <span class="career-sub-period">2015.10 ~ 2016.03</span></li>
+                                <li>수협개발 <span class="career-sub-period">2015.07 ~ 2015.10</span></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2015.03 ~ 2015.07</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>엘에이치</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <p class="career-note">웹에이전시 · U&amp;D개발팀 매니저</p>
+                            <ul class="career-tasks">
+                                <li>BC카드 파견근무</li>
+                                <li>기업 사이트 유지보수</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2011.10 ~ 2015.02</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>(주)코리아센터</h3>
+                            <p class="career-role">웹 퍼블리셔</p>
+                            <p class="career-note">이커머스 솔루션 (메이크샵)</p>
+                            <ul class="career-tasks">
+                                <li>자체 플랫폼을 통한 쇼핑몰 이전 작업 수행, 코딩 작업이 주 업무</li>
+                                <li>약 100개의 쇼핑몰 제작 작업 수행</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="career-item">
+                        <div class="career-period">
+                            <p>2010.02 ~ 2011.08</p>
+                        </div>
+                        <div class="career-body">
+                            <h3>모네커뮤니케이션즈</h3>
+                            <p class="career-role">웹 디자이너</p>
+                            <p class="career-note">웹에이전시</p>
+                            <ul class="career-tasks">
+                                <li>스킨푸드 자사몰 운영 및 관리</li>
+                                <li>공모전 사이트 신규 제작</li>
+                                <li>이룸투자자문 회사 유지보수 등 다수 기업 사이트 유지보수</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-label">Experience</h2>
+                <div class="experience-grid">
+
+                    <div>
+                        <h3 class="sub-title">실무 역량</h3>
+                        <ul class="tile-list">
+                            <li>쇼핑몰 신규 구축 및 개별 디자인</li>
+                            <li>메이크샵 쇼핑몰 템플릿 유지보수</li>
+                            <li>쇼핑몰 관리자 화면 유지보수</li>
+                            <li>기업 및 브랜드 웹사이트 퍼블리싱</li>
+                            <li>PC 및 모바일 반응형 웹 구현</li>
+                            <li>HTML/CSS 기반 화면 구현</li>
+                            <li>JavaScript 및 jQuery 활용</li>
+                            <li>기존 웹사이트 수정 및 유지보수</li>
+                            <li>디자인 시안을 실제 웹 화면으로 구현</li>
+                        </ul>
+                    </div>
+
+                    <div class="now-panel">
+                        <h3 class="sub-title">현재 업무 · (주)커넥트웨이브</h3>
+                        <ul class="check-list">
+                            <li>메이크샵 개별 디자인 템플릿 유지보수</li>
+                            <li>관리자 유지보수</li>
+                            <li>쇼핑몰 신규 구축 및 화면 작업</li>
+                            <li>기존 소스 분석 및 수정</li>
+                            <li>운영 중 발생하는 화면 문제 대응</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-label">Projects</h2>
+                <p class="section-desc">회사에서 수행한 프로젝트입니다.</p>
+
+                <div class="project-group">
+                    <h3 class="group-title">메이크샵 <span>커넥트웨이브 · 2019.06 ~ 재직 중 (법인명 변경 전 코리아센터)</span></h3>
+                    <div class="project-grid">
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb has-shots">
+                                <span class="project-type">제작 · 유지보수</span>
+                                <div class="thumb-shots">
+                                    <img class="shot-pc" src="images/skin-main.jpg" alt="반응형 웹 스킨 PC 메인 화면" width="800" height="625" loading="lazy">
+                                    <img class="shot-mobile" src="images/skin-m-main.jpg" alt="반응형 웹 스킨 모바일 메인 화면" width="412" height="810" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <h4>반응형 웹 스킨</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>반응형 웹 스킨 신규 제작 및 관련 스킨 업무 유지보수</dd>
+                                    </div>
+                                    <!-- 입력: 수행 기간 / 작업 상세 -->
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">신규 제작</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>파트너센터 사이트</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd><a href="https://partner.makeshop.co.kr/" target="_blank" rel="noopener noreferrer">partner.makeshop.co.kr ↗</a></dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>홈페이지 신규제작</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>메이크샵 홈페이지</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd><a href="https://www.makeshop.co.kr/" target="_blank" rel="noopener noreferrer">www.makeshop.co.kr ↗</a></dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>홈페이지 유지보수</dd>
+                                    </div>
+                                    <!-- 입력: 수행 기간 -->
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>메이크샵 관리자</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>관리자 유지보수</dd>
+                                    </div>
+                                    <!-- 입력: 수행 기간 -->
+                                </dl>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="project-group">
+                    <h3 class="group-title">디브로스 크리에이티브 <span>2016.11 ~ 2017.06</span></h3>
+                    <div class="project-grid">
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작 · 유지보수</span>
+                                <span class="project-period">상시 업무</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>하이트진로</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>프로모션 페이지 제작 및 유지보수 (상시 업무)</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작 · 유지보수</span>
+                                <span class="project-period">상시 업무</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>던킨도너츠</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>프로모션 페이지 제작 및 유지보수 (상시 업무)</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작 · 유지보수</span>
+                                <span class="project-period">상시 업무</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>배스킨라빈스</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>프로모션 페이지 제작 및 유지보수 (상시 업무)</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작 · 유지보수</span>
+                                <span class="project-period">상시 업무</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>광동제약</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>프로모션 페이지 제작 및 유지보수 (상시 업무)</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="project-group">
+                    <h3 class="group-title">코드파트너즈 <span>프리랜서 · 2015.07 ~ 2016.03</span></h3>
+                    <div class="project-grid">
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">리뉴얼</span>
+                                <span class="project-period">2015.10 ~ 2016.03</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>현대증권</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>직책</dt>
+                                        <dd>웹퍼블리셔팀 매니저</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>사이트 리뉴얼 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>서브페이지 작업 및 웹접근성</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">모바일 제작</span>
+                                <span class="project-period">2015.07 ~ 2015.10</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>수협개발 (수협쇼핑몰)</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>직책</dt>
+                                        <dd>웹퍼블리셔팀 매니저</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>수협 임직원 복지몰, 오픈스토어, 수산물 도매 사이트 모바일 제작 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹모바일 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>사이트 안정화 및 웹접근성</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="project-group">
+                    <h3 class="group-title">엘에이치 <span>웹에이전시 · U&amp;D개발팀 매니저 · 2015.03 ~ 2015.07</span></h3>
+                    <div class="project-grid">
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수</span>
+                                <span class="project-period">2015.05 (약 2개월)</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>비씨카드</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>서브페이지 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>사이트 안정화 및 웹표준 작업</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수</span>
+                                <span class="project-period">2015.03 (약 4개월)</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>캐논</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>사이트 유지보수 및 웹표준 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>사이트 안정화</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수 · 이벤트</span>
+                                <span class="project-period">2015.03 (약 4개월)</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>타이레놀</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>사이트 유지보수 및 이벤트 페이지 제작 (웹 반응형으로 제작)</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>사이트 안정화 및 이벤트 성과 극대화</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수</span>
+                                <span class="project-period">2015.03 (약 2개월)</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>파나소닉</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>(리뉴얼)사이트 구축</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>사이트 안정화 및 웹표준 작업</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="project-group">
+                    <h3 class="group-title">코리아센터 <span>2011.10 ~ 2015.02</span></h3>
+                    <p class="group-note">자체 플랫폼을 통한 쇼핑몰 이전 작업과 코딩이 주 업무였으며, 아래 외에도 약 100개의 쇼핑몰 제작 작업을 수행했습니다.</p>
+                    <div class="project-grid">
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작</span>
+                                <span class="project-period">2015.01 (1개월)</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>캔디글로우</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>웹사이트/모바일 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>매출증대, 웹표준화, 스크립트 작업</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">이전</span>
+                                <span class="project-period">2014.09 (1개월)</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>스타일커플</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>웹사이트/모바일 이전 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>기존 사이트 오류 개선, 매출증대, 웹표준화</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">이전</span>
+                                <span class="project-period">2014.06 (1개월)</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>미넴옴므 (주상욱샵)</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>웹사이트/모바일 이전 작업</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>매출증대, 웹표준화</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">모바일 코딩</span>
+                                <span class="project-period">2014.02 (1개월)</span>
+                                <!-- 스크린샷: <img src="images/파일명.png" alt="프로젝트 화면"> -->
+                            </div>
+                            <div class="project-body">
+                                <h4>조군샵</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>모바일 코딩</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>서비스 안정화, 스크립트 작업</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">이전</span>
+                                <span class="project-period">2013.12 (1개월)</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>설탕공장</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 퍼블리셔</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>사이트 이전</dd>
+                                    </div>
+                                    <div>
+                                        <dt>성과</dt>
+                                        <dd>기능 업그레이드, 매출증대</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="project-group">
+                    <h3 class="group-title">모네커뮤니케이션즈 <span>2010.02 ~ 2011.08</span></h3>
+                    <div class="project-grid">
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">디자인</span>
+                                <span class="project-period">2011.06 ~ 2011.08</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>희귀질환재단</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd><a href="http://kfrd.org/" target="_blank" rel="noopener noreferrer">kfrd.org ↗</a></dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 디자이너</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>디자인</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작</span>
+                                <span class="project-period">2011.06 ~ 2011.08</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>0729doo.com</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd>0729doo.com</dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 디자이너</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>디자인, 코딩</dd>
+                                    </div>
+                                </dl>
+                                <ul role="list" class="tag-list">
+                                    <li>카페24 솔루션</li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">제작</span>
+                                <span class="project-period">2011.04 ~ 2011.08</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>jays-review.co.kr</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd>jays-review.co.kr</dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 디자이너</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>어학원, 유학원, 마이크로 사이트 제작</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">디자인</span>
+                                <span class="project-period">2011.03 ~ 2011.07</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>dunloptyre.co.kr</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd><a href="http://dunloptyre.co.kr/" target="_blank" rel="noopener noreferrer">dunloptyre.co.kr ↗</a></dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 디자이너</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>홈페이지 디자인</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">유지보수</span>
+                                <span class="project-period">2010.04 ~ 2010.12</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>스킨푸드</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 디자이너</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>유지보수</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                        <article class="project-card has-thumb">
+                            <div class="project-thumb">
+                                <span class="project-type">디자인 · 코딩</span>
+                            </div>
+                            <div class="project-body">
+                                <h4>이룸투자자문</h4>
+                                <dl class="project-meta">
+                                    <div>
+                                        <dt>사이트</dt>
+                                        <dd>iroomasset.com</dd>
+                                    </div>
+                                    <div>
+                                        <dt>담당 역할</dt>
+                                        <dd>웹 디자이너</dd>
+                                    </div>
+                                    <div>
+                                        <dt>작업 내용</dt>
+                                        <dd>디자인 및 코딩</dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-label">Skills</h2>
+                <div class="skills-grid">
+
+                    <div>
+                        <h3 class="sub-title">실무 기술</h3>
                         <ul role="list" class="skill-list">
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
-                            <li>React</li>
-                            <li>Next.js</li>
-                            <li>TypeScript</li>
-                            <li>Git</li>
-                            <li>Figma</li>
+                            <li>jQuery</li>
+                            <li>Responsive Web</li>
+                            <li>Web Standards</li>
+                            <li>Web Accessibility</li>
                         </ul>
                     </div>
-        
+
+                    <div>
+                        <h3 class="sub-title">개인 학습 및 활용 기술</h3>
+                        <ul role="list" class="skill-list">
+                            <li>React</li>
+                            <li>Next.js</li>
+                            <li>Git</li>
+                            <li>Playwright</li>
+                            <li>AI 도구 활용</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </section>
-    
-        <section id="projects">
+
+        <section id="personal">
             <div class="container">
-                <p class="section-label">Projects</p>
+                <h2 class="section-label">AI &amp; Personal Projects</h2>
+                <p class="section-desc">업무와 별개로 진행한 개인 프로젝트와 실험입니다.</p>
                 <div class="project-grid">
-        
+
                     <article class="project-card">
                         <div class="project-card-header">
                             <span class="project-number">01</span>
-                            <a href="#" class="project-link">GitHub ↗</a>
+                            <span class="badge">개인 프로젝트</span>
                         </div>
                         <h3>Home Insight AI</h3>
                         <p>AI를 활용한 개인용 부동산 의사결정 지원 도구. 매물을 붙여넣으면 자동으로 분석하고 비교해주는 서비스.</p>
@@ -94,48 +962,57 @@
                             <li>Tailwind CSS</li>
                         </ul>
                     </article>
-        
+
                     <article class="project-card">
                         <div class="project-card-header">
                             <span class="project-number">02</span>
-                            <a href="#" class="project-link">GitHub ↗</a>
+                            <span class="badge badge-poc">PoC</span>
                         </div>
-                        <h3>포트폴리오 사이트</h3>
-                        <p>바닐라 HTML/CSS/JS로 직접 제작한 포트폴리오. 반응형 레이아웃과 웹 접근성을 고려해 구현했습니다.</p>
+                        <h3>Cafe24 → 메이크샵 디자인 자동화</h3>
+                        <p>Cafe24 쇼핑몰 디자인을 메이크샵으로 옮기는 작업의 자동화 가능성을 검증한 PoC.</p>
+                        <!-- 입력: 수행 범위 / 사용 기술 -->
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">03</span>
+                            <a href="https://github.com/qjrtl0211/portfolio" class="project-link" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        </div>
+                        <h3>개인 포트폴리오</h3>
+                        <p>바닐라 HTML/CSS/JS로 직접 제작한 포트폴리오 사이트. GitHub Pages로 배포했습니다.</p>
                         <ul role="list" class="tag-list">
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
+                            <li>GitHub Pages</li>
                         </ul>
                     </article>
-        
+
                 </div>
             </div>
         </section>
-    
+
         <section id="contact">
             <div class="container">
-                <p class="section-label">Contact</p>
+                <h2 class="section-label">Contact</h2>
                 <div class="contact-inner">
-                    <h2>새로운 기회를<br>기다리고 있습니다.</h2>
-                    <p>프론트엔드 관련 기회나 협업 제안이 있다면<br>편하게 연락 주세요.</p>
+                    <h3>새로운 기회를<br>기다리고 있습니다.</h3>
+                    <p>웹 퍼블리싱 관련 기회나 협업 제안이 있다면<br>편하게 연락 주세요.</p>
                     <a href="mailto:qjrtl0211@gmail.com" class="contact-button">
                         이메일 보내기 ✉
                     </a>
-                    <div class="contact-links">
-                        <a href="#">GitHub</a>
-                    </div>
                 </div>
             </div>
         </section>
 
     </main>
+    
     <footer>
         <div class="container">
             <p>© 2026 박보람. Designed &amp; Built by 박보람.</p>
         </div>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
